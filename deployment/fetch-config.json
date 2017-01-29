@@ -2,6 +2,14 @@
   "dbpath": "data",
   "max-concurrent-indexers": 4,
   "repos": {
+    "acme.sh": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/acme.sh.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "acroname": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -130,14 +138,6 @@
         "ref": "indigo-devel"
       }
     },
-    "fetch_binary_drivers": {
-      "exclude-dot-files": true,
-      "ms-between-poll": 3600000,
-      "url": "git@github.com:fetchrobotics/fetch_binary_drivers.git",
-      "vcs-config": {
-        "ref": "master"
-      }
-    },
     "fetch_common": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -154,10 +154,26 @@
         "ref": "master"
       }
     },
+    "fetch_demos": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/fetch_demos.git",
+      "vcs-config": {
+        "ref": "melodic-devel"
+      }
+    },
     "fetch_drivers": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/fetch_drivers.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
+    "fetch_firmware_repackager": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/fetch_firmware_repackager.git",
       "vcs-config": {
         "ref": "master"
       }
@@ -239,7 +255,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/fetch_realsense.git",
       "vcs-config": {
-        "ref": "indigo-devel"
+        "ref": "melodic-devel"
       }
     },
     "fetch_robots": {
@@ -247,7 +263,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/fetch_robots.git",
       "vcs-config": {
-        "ref": "indigo-devel"
+        "ref": "melodic-devel"
       }
     },
     "fetch_ros": {
@@ -330,6 +346,14 @@
         "ref": "master"
       }
     },
+    "fetchit": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/fetchit.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "fetchlink-config": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -394,6 +418,14 @@
         "ref": "master"
       }
     },
+    "go_utils": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/go_utils.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "golang-web-service-example": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -422,6 +454,14 @@
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/jet-materials.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
+    "laneplanner": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/laneplanner.git",
       "vcs-config": {
         "ref": "master"
       }
@@ -551,7 +591,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/product-documentation.git",
       "vcs-config": {
-        "ref": "2018.6"
+        "ref": "2019.1"
       }
     },
     "product-documentation-service": {
@@ -615,7 +655,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/robot_calibration.git",
       "vcs-config": {
-        "ref": "indigo-devel"
+        "ref": "melodic-devel"
       }
     },
     "robot_controllers": {
@@ -639,7 +679,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/robot_private.git",
       "vcs-config": {
-        "ref": "indigo-devel"
+        "ref": "melodic-devel"
       }
     },
     "rosdistro": {
@@ -662,6 +702,14 @@
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/sandbox.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
+    "sandbox_old": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/sandbox_old.git",
       "vcs-config": {
         "ref": "master"
       }
