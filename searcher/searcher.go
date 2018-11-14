@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hound-search/hound/config"
-	"github.com/hound-search/hound/index"
-	"github.com/hound-search/hound/vcs"
+	"github.com/safrimus/hound/config"
+	"github.com/safrimus/hound/index"
+	"github.com/safrimus/hound/vcs"
 )
 
 type Searcher struct {

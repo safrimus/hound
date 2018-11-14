@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/hound-search/hound/vcs"
+	"github.com/safrimus/hound/vcs"
 )
 
 const exampleConfigFile = "config-example.json"
