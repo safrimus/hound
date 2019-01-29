@@ -63,7 +63,7 @@
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/commercial_robots.git",
       "vcs-config": {
-        "ref": "indigo-devel"
+        "ref": "master"
       }
     },
     "deployment": {
@@ -130,6 +130,14 @@
         "ref": "indigo-devel"
       }
     },
+    "fetch_binary_drivers": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/fetch_binary_drivers.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "fetch_common": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -150,14 +158,6 @@
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/fetch_drivers.git",
-      "vcs-config": {
-        "ref": "master"
-      }
-    },
-    "fetch_firmware_repackager": {
-      "exclude-dot-files": true,
-      "ms-between-poll": 3600000,
-      "url": "git@github.com:fetchrobotics/fetch_firmware_repackager.git",
       "vcs-config": {
         "ref": "master"
       }
@@ -330,6 +330,14 @@
         "ref": "master"
       }
     },
+    "fetchlink-config": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/fetchlink-config.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "fleetwood-map": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -438,6 +446,14 @@
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
       "url": "git@github.com:fetchrobotics/logpro.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
+    "mac-autosetup": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/mac-autosetup.git",
       "vcs-config": {
         "ref": "master"
       }
@@ -634,6 +650,14 @@
         "ref": "master"
       }
     },
+    "rosgo": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/rosgo.git",
+      "vcs-config": {
+        "ref": "master"
+      }
+    },
     "sandbox": {
       "exclude-dot-files": true,
       "ms-between-poll": 3600000,
@@ -656,6 +680,14 @@
       "url": "git@github.com:fetchrobotics/sick_s300.git",
       "vcs-config": {
         "ref": "indigo-devel"
+      }
+    },
+    "stefs-leatherman": {
+      "exclude-dot-files": true,
+      "ms-between-poll": 3600000,
+      "url": "git@github.com:fetchrobotics/stefs-leatherman.git",
+      "vcs-config": {
+        "ref": "master"
       }
     },
     "support_tools": {

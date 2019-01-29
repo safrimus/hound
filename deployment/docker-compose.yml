@@ -1,0 +1,22 @@
+version: '2.3'
+services:
+  hound_nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: nginx_stage
+    container_name: hound_nginx
+    ports:
+      - 6080:6080
+    tty: true
+    privileged: true
+  hound:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: hound_stage
+    container_name: hound
+    expose:
+      - 6070
+    tty: true
+    privileged: true
